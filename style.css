@@ -1,0 +1,39 @@
+.container{
+    height: 90vh;
+    background-color: rgb(255, 0, 157);
+    position: relative;
+}
+.box{
+  position: absolute; 
+    background-color: rgb(251, 251, 251);
+bottom: 10%;
+left: 40%;
+transform: translate(-50,-50);
+height: 70%;
+width: 25%;
+align-items: center;
+}
+.box h1{
+    font-size: 50px;
+    justify-content: center;
+
+}
+.box input{
+    font-size: 20px;
+    align-items: center;
+    white-space: 2px;
+    margin-bottom: 5px;
+
+}
+.box button{
+    width: 260px;
+    height: 30px;
+    background-color: rgb(38, 38, 213);
+    margin-bottom: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+.option{
+    margin-bottom: 15px;
+}
